@@ -29,3 +29,20 @@ console.log(num_1); // ---> 2; It worked. var has a global scope
 
 const num = 2;
 /*num = 3; // --> Error: Uncaught TypeError TypeError: Assignment to constant variable*/
+
+/*Primitive Datatypes*/
+//String
+let name = "John";
+let name_2 = 'Dan';
+
+let language = "Javascript";
+console.log(`I'm learning ${language}`);
+
+let otherName = "Hello, my name is \"Mike\"";
+
+let othername = 'Hello, it\'s me, Goku';
+
+let Othername = 'Where are you? \n Are you not coming? \n Come quickly';
+console.log(otherName);
+console.log(othername);
+console.log(Othername);
